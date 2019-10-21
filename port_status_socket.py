@@ -2,9 +2,7 @@
 # Author:si1ent
 # socket实现端口扫描
 # 端口号只能指定范围实现
-
 import socket
-
 ip = raw_input("Please Input IP:")
 def ip_port_status(ip, port):
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
