@@ -12,7 +12,7 @@ iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
 ```
 ab -n 1000 -c 10 http://192.168.3.81/
 ```
-iptables结果
+iptables结果  
 ![](images/iptables.jpg)
 
 ## 端口状态监测
