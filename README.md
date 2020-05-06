@@ -29,3 +29,7 @@ iptables结果
 主要检测当前网页内死链接，如果JS内在一些你意想不到的东西呢?
 ![](images/url_check.jpg)
 
+## windows安全检查脚本
+此脚本作者"[凌辰's Blog出品](http://www.lcblog.vip/)"
+感谢大佬,已收集至git.
+
