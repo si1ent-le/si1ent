@@ -25,3 +25,7 @@ iptables结果
 执行结果如下:  
 ![](images/port_status.jpg)
 
+## URL检测
+主要检测当前网页内死链接，如果JS内在一些你意想不到的东西呢?
+![](images/url_check.jpg)
+

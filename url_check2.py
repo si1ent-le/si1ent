@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 url = raw_input("URL:")
 res = requests.get(url)
 soup = BeautifulSoup(res.text, 'lxml')
-print soup
+#print soup
 for a in soup.find_all('a'):
     print (a['href'])
 
