@@ -7,7 +7,7 @@ for i in ` netstat -an | grep -i ':80 ' | grep 'TIME_WAIT' | awk '{print $5}' | 
   echo $i
   echo $i >> /tmp/banip
 
-# 基础iptables配置好以防后面无法访问等,保证以上条件满足后才会执行后续添加
+# iptables提前配置,以防后面无法访问,保证以上条件满足后才会执行后续添加
   /sbin/iptables -F
   /sbin/iptables -A INPUT -p tcp --dport  22 -j ACCEPT
   /sbin/iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
