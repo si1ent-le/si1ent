@@ -33,3 +33,8 @@ iptables结果
 此脚本作者"[凌辰's Blog出品](http://www.lcblog.vip/)"
 感谢大佬,已收集至git.
 
+## ssh爆破
+脚本收集于网络上,出处未知,如有问题还请指出.
+ssh爆破脚本默认root账户、端口默认为22加载IP列表、字典列表.
+![](images/ssh_brute.jpg)
+
