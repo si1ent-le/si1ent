@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author:si1ent
 #Date:5/5
-
+#主要检测当前连接服务器出现“TIME_WAIT”超过指定数量后会被拦截
 
 for i in ` netstat -an | grep -i ':80 ' | grep 'TIME_WAIT' | awk '{print $5}' | cut -d : -f 1 | sort | uniq -c | awk '{if($1 > 50) {print $2}}'`; do
   echo $i
