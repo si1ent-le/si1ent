@@ -18,7 +18,7 @@ echo $ip_list;
 /sbin/iptables -A INPUT -p tcp --sport 8888 -j ACCEPT
 /sbin/iptables -A INPUT -p tcp --dport 8888 -j ACCEPT
 
-#分别添加16、24网段进行封堵
+#添加16、24网段进行封堵
 /sbin/iptables -A INPUT -p tcp --dport 80 -j DROP -s $i/16
 /sbin/iptables -A INPUT -p tcp --dport 80 -j DROP -s $i/24
 
