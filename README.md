@@ -40,3 +40,6 @@ ssh爆破脚本默认root账户、端口默认为22加载IP列表、字典列表
 ## 查看本地IP
 主要查询本地IP信息。
 
+## Pycharm请求到至Burpsuite
+脚本在PyCharm中运行py脚本实现代理至Burpsuite
+![](/images/1605518070495.jpg)
